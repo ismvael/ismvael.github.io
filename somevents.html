@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Functions and Events</h2>
+<p>The Year is...</p>
+<p id="demo"></p>
+<script>
+function myFunction(p1, p2) {
+  return p1 * p2;
+}
+document.getElementById("demo").innerHTML = myFunction(10, 202);
+</script>
+<button onclick="myFunction()">Click me</button>
+<script>
+function myFunction() {
+  alert("Warning! You clicked me !");
+}
+</script>
+<script>
+function myFunction() {
+  alert("Page is loaded");
+}
+</script>
+</head>
+<body onload="myFunction()">
+</body>
+</body>
+</html>
